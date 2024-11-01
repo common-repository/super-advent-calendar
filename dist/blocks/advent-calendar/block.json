@@ -1,0 +1,65 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "super-advent-calendar/advent-calendar",
+  "title": "Advent Calendar",
+  "category": "widgets",
+  "icon": "calendar-alt",
+  "description": "Display an advent calendar",
+  "version": "1.0.0",
+  "textdomain": "super-advent-calendar",
+  "attributes": {
+    "animation": {
+      "type": "string",
+      "default": "none"
+    },
+    "specialEffect": {
+      "type": "string",
+      "default": "none"
+    }
+  },
+  "providesContext": {
+    "super-advent-calendar/animation": "animation",
+    "super-advent-calendar/specialEffect": "specialEffect"
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "color": {
+      "background": true,
+      "gradients": true,
+      "text": false
+    },
+    "html": false,
+    "layout": {
+      "default": {
+        "type": "grid"
+      },
+      "allowSizingOnChildren": true
+    }
+  },
+  "styles": [
+    {
+      "name": "custom",
+      "label": "Custom",
+      "isDefault": true
+    },
+    {
+      "name": "christmas",
+      "label": "Christmas"
+    },
+    {
+      "name": "easter",
+      "label": "Easter"
+    },
+    {
+      "name": "new-year",
+      "label": "New Year"
+    }
+  ],
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

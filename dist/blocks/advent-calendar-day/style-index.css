@@ -1,0 +1,28 @@
+.tippy-box[data-animation=scale][data-placement^=top]{transform-origin:bottom}.tippy-box[data-animation=scale][data-placement^=bottom]{transform-origin:top}.tippy-box[data-animation=scale][data-placement^=left]{transform-origin:right}.tippy-box[data-animation=scale][data-placement^=right]{transform-origin:left}.tippy-box[data-animation=scale][data-state=hidden]{transform:scale(.5);opacity:0}.tippy-box[data-placement^=top]>.tippy-svg-arrow{bottom:0}.tippy-box[data-placement^=top]>.tippy-svg-arrow:after,.tippy-box[data-placement^=top]>.tippy-svg-arrow>svg{top:16px;transform:rotate(180deg)}.tippy-box[data-placement^=bottom]>.tippy-svg-arrow{top:0}.tippy-box[data-placement^=bottom]>.tippy-svg-arrow>svg{bottom:16px}.tippy-box[data-placement^=left]>.tippy-svg-arrow{right:0}.tippy-box[data-placement^=left]>.tippy-svg-arrow:after,.tippy-box[data-placement^=left]>.tippy-svg-arrow>svg{transform:rotate(90deg);top:calc(50% - 3px);left:11px}.tippy-box[data-placement^=right]>.tippy-svg-arrow{left:0}.tippy-box[data-placement^=right]>.tippy-svg-arrow:after,.tippy-box[data-placement^=right]>.tippy-svg-arrow>svg{transform:rotate(-90deg);top:calc(50% - 3px);right:11px}.tippy-svg-arrow{width:16px;height:16px;fill:#333;text-align:initial}.tippy-svg-arrow,.tippy-svg-arrow>svg{position:absolute}.superac-day{position:relative;cursor:pointer;text-align:center;text-decoration-line:none;
+	transform-style: preserve-3d;
+	transform-origin: center right}.superac-day--animation-flip,
+	.superac-day--animation-none{overflow:visible !important;
+		transition: transform 1s}.superac-day--animation-flip .superac-card, .superac-day--animation-none .superac-card {
+			backface-visibility: hidden;
+		}.superac-day--animation-flip .superac-card--back, .superac-day--animation-none .superac-card--back {
+			transform: rotateY(180deg);
+		}.superac-day--animation-flip.is-open, .superac-day--animation-none.is-open {
+			transform: translateX(-100%) rotateY(-180deg);
+		}.superac-day--animation-none {
+		transition: none;
+	}.superac-card{position:relative;box-sizing:border-box;display:flex;height:100%;width:100%;flex-direction:column;align-items:center;justify-content:center;border-radius:0.125rem;--tw-bg-opacity:1;background-color:rgb(203 213 225 / var(--tw-bg-opacity));background-size:cover;padding:1rem}.superac-card--front{z-index:0}.superac-card--front .superac-card-title{font-weight:700}.superac-card--back{position:absolute;top:0px;z-index:10}.superac-card--back .superac-card-title{margin-bottom:0.25rem;font-size:1rem;line-height:1.5rem;font-weight:700}.superac-card--back .superac-card-content{font-size:0.875rem;line-height:1.25rem}/* Tippy */.tippy-box[data-theme~='superac-tooltip']{border-radius:0.125rem;--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity));padding:0.5rem;font-size:0.75rem;line-height:1rem;--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.tippy-box[data-theme~='superac-tooltip'] > .tippy-svg-arrow{fill:#000}/* A11y Dialog */.superac-dialog-container,
+.superac-dialog-overlay{top:0px;right:0px;bottom:0px;left:0px}.superac-dialog-container{position:absolute;z-index:10;display:flex}.superac-dialog-overlay{position:fixed;
+	background-color: rgb(43 46 56 / 0.9);
+	animation: superac-fade-in 200ms both}.superac-dialog-container[aria-hidden='true']{display:none}@keyframes superac-fade-in {
+	from {
+		opacity: 0;
+	}
+}@keyframes superac-slide-up {
+	from {
+		transform: translateY(10%);
+	}
+}.superac-dialog-content{position:relative;z-index:10;margin:auto;width:100%;max-width:32rem;border-radius:0.375rem;--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity));padding:1rem;
+	animation:
+		superac-fade-in 400ms 200ms both,
+		superac-slide-up 400ms 200ms both}/* this is to make sure someone's global :focus color does not override into invisible text */.superac-dialog-content:focus{color:inherit}.superac-dialog-top-bar{display:flex;width:100%;justify-content:flex-end}.superac-dialog-top-bar .superac-dialog-button{cursor:pointer;border-width:0px;background-color:transparent;padding:0px;--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity));outline-width:0px}.superac-dialog-top-bar .superac-dialog-button:hover{opacity:0.5}.superac-dialog-title{font-size:1.5rem !important;line-height:2rem !important;font-weight:700 !important}
+

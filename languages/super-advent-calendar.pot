@@ -1,0 +1,367 @@
+# Copyright (C) 2024 Verdant Studio
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Super Advent Calendar 1.11.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/super-advent-calendar\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-31T11:25:28+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: super-advent-calendar\n"
+
+#. Plugin Name of the plugin
+#: super-advent-calendar.php
+msgid "Super Advent Calendar"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: super-advent-calendar.php
+msgid "https://www.verdant.studio/plugins/super-advent-calendar"
+msgstr ""
+
+#. Description of the plugin
+#: super-advent-calendar.php
+msgid "Add a super flexible advent calendar to your website for festive giveaways or counting down the holidays."
+msgstr ""
+
+#. Author of the plugin
+#: super-advent-calendar.php
+msgid "Verdant Studio"
+msgstr ""
+
+#. Author URI of the plugin
+#: super-advent-calendar.php
+msgid "https://www.verdant.studio"
+msgstr ""
+
+#: src/Controllers/ApiController.php:154
+msgid "You do not have permission to access this api."
+msgstr ""
+
+#. translators: %2$s: Super Advent Calendar
+#: src/Providers/AppServiceProvider.php:67
+msgid "Please help us improve the plugin by securely sharing some basic WordPress environment info. If you skip this, that's okay! %2$s will still work just fine."
+msgstr ""
+
+#: src/Services/ResourceService.php:257
+msgid "Opens in a modal"
+msgstr ""
+
+#: src/Services/ResourceService.php:261
+msgid "Opens a link"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:142
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Front text"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:148
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Front background"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:154
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Back text"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:159
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Back background"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:165
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Modal text"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:171
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Modal background"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:183
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Schedule"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:191
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "When this entry will be available."
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:195
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Start date/time"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:214
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "When this entry will stop being available."
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:218
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "End date/time"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:234
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Content (Front)"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:238
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "The title shown before opening."
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:242
+#: assets/blocks/advent-calendar-day/edit.js:262
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Title"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:257
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Content (Back)"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:261
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "The title shown when opened."
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:268
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Content type"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:279
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Unless you're using a modal (see below), you should probably keep this short. P.S. you can also use shortcodes!"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:283
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Text"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:289
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Show in Modal"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:297
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Please include http(s)://"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:298
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Link"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/edit.js:304
+#: dist/blocks/advent-calendar-day/index.js:1
+msgid "Open in new window"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/view.js:42
+#: assets/blocks/advent-calendar-day/view.js:44
+#: assets/blocks/advent-calendar-day/view.js:63
+#: assets/blocks/advent-calendar-day/view.js:66
+#: assets/blocks/advent-calendar-day/view.js:82
+#: assets/blocks/advent-calendar-day/view.js:84
+#: dist/blocks/advent-calendar-day/view.js:1
+msgid "Error"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/view.js:129
+#: dist/blocks/advent-calendar-day/view.js:1
+msgid "Can't be opened yet"
+msgstr ""
+
+#: assets/blocks/advent-calendar/edit.js:28
+#: dist/blocks/advent-calendar/index.js:1
+msgid "No animation"
+msgstr ""
+
+#: assets/blocks/advent-calendar/edit.js:32
+#: dist/blocks/advent-calendar/index.js:1
+msgid "Flip"
+msgstr ""
+
+#: assets/blocks/advent-calendar/edit.js:48
+#: dist/blocks/advent-calendar/index.js:1
+msgid "Effects"
+msgstr ""
+
+#: assets/blocks/advent-calendar/edit.js:51
+#: dist/blocks/advent-calendar/index.js:1
+msgid "Revealing animation"
+msgstr ""
+
+#: assets/blocks/advent-calendar/edit.js:66
+#: dist/blocks/advent-calendar/index.js:1
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: assets/blocks/advent-calendar/edit.js:69
+#: dist/blocks/advent-calendar/index.js:1
+msgid "Unlock exclusive features with our premium plan."
+msgstr ""
+
+#: assets/blocks/advent-calendar/edit.js:79
+#: dist/blocks/advent-calendar/index.js:1
+msgid "Learn More."
+msgstr ""
+
+#: assets/premium/extend-blocks.js:29
+#: dist/premium/extend-blocks.js:1
+msgid "Slide in from left"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:33
+#: dist/premium/extend-blocks.js:1
+msgid "Slide up"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:37
+#: dist/premium/extend-blocks.js:1
+msgid "Slide down"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:41
+#: dist/premium/extend-blocks.js:1
+msgid "Slide in from right"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:45
+#: dist/premium/extend-blocks.js:1
+msgid "Rotate into view"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:49
+#: dist/premium/extend-blocks.js:1
+msgid "Fade and skew"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:53
+#: dist/premium/extend-blocks.js:1
+msgid "Slide in from bottom corner"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:57
+#: dist/premium/extend-blocks.js:1
+msgid "Slide in from top corner"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:78
+#: dist/premium/extend-blocks.js:1
+msgid "Special Effect"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:82
+#: dist/premium/extend-blocks.js:1
+msgid "No special effect"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:86
+#: dist/premium/extend-blocks.js:1
+msgid "Confetti"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:90
+#: dist/premium/extend-blocks.js:1
+msgid "Confetti (Christmas)"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:94
+#: dist/premium/extend-blocks.js:1
+msgid "Confetti (Easter)"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:98
+#: dist/premium/extend-blocks.js:1
+msgid "Confetti (New Year)"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:102
+#: dist/premium/extend-blocks.js:1
+msgid "Snowfall"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:125
+#: dist/premium/extend-blocks.js:1
+msgid "To edit the background image, you need permission to upload media."
+msgstr ""
+
+#: assets/premium/extend-blocks.js:164
+#: dist/premium/extend-blocks.js:1
+msgid "Choose an image"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:185
+#: assets/premium/extend-blocks.js:188
+#: dist/premium/extend-blocks.js:1
+msgid "Replace image"
+msgstr ""
+
+#: assets/premium/extend-blocks.js:196
+#: dist/premium/extend-blocks.js:1
+msgid "Remove image"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/block.json
+#: dist/blocks/advent-calendar-day/block.json
+msgctxt "block title"
+msgid "Advent Calendar Day"
+msgstr ""
+
+#: assets/blocks/advent-calendar-day/block.json
+#: dist/blocks/advent-calendar-day/block.json
+msgctxt "block description"
+msgid "Display a day in the advent calendar"
+msgstr ""
+
+#: assets/blocks/advent-calendar/block.json
+#: dist/blocks/advent-calendar/block.json
+msgctxt "block title"
+msgid "Advent Calendar"
+msgstr ""
+
+#: assets/blocks/advent-calendar/block.json
+#: dist/blocks/advent-calendar/block.json
+msgctxt "block description"
+msgid "Display an advent calendar"
+msgstr ""
+
+#: assets/blocks/advent-calendar/block.json
+#: dist/blocks/advent-calendar/block.json
+msgctxt "block style label"
+msgid "Custom"
+msgstr ""
+
+#: assets/blocks/advent-calendar/block.json
+#: dist/blocks/advent-calendar/block.json
+msgctxt "block style label"
+msgid "Christmas"
+msgstr ""
+
+#: assets/blocks/advent-calendar/block.json
+#: dist/blocks/advent-calendar/block.json
+msgctxt "block style label"
+msgid "Easter"
+msgstr ""
+
+#: assets/blocks/advent-calendar/block.json
+#: dist/blocks/advent-calendar/block.json
+msgctxt "block style label"
+msgid "New Year"
+msgstr ""

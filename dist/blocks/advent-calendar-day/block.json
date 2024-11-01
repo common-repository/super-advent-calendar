@@ -1,0 +1,116 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "super-advent-calendar/advent-calendar-day",
+  "title": "Advent Calendar Day",
+  "category": "widgets",
+  "parent": [
+    "super-advent-calendar/advent-calendar"
+  ],
+  "icon": "awards",
+  "description": "Display a day in the advent calendar",
+  "version": "1.1.0",
+  "textdomain": "super-advent-calendar",
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "scheduleStart": {
+      "type": "string",
+      "default": ""
+    },
+    "scheduleEnd": {
+      "type": "string",
+      "default": ""
+    },
+    "frontTitle": {
+      "type": "string",
+      "default": "Day"
+    },
+    "frontTextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "frontBackgroundColor": {
+      "type": "string",
+      "default": ""
+    },
+    "frontMediaId": {
+      "type": "number",
+      "default": 0
+    },
+    "frontMediaUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "backTitle": {
+      "type": "string",
+      "default": "Title"
+    },
+    "backContent": {
+      "type": "string",
+      "default": "Content"
+    },
+    "backContentLink": {
+      "type": "string",
+      "default": ""
+    },
+    "backTextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "backBackgroundColor": {
+      "type": "string",
+      "default": ""
+    },
+    "modalTextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "modalBackgroundColor": {
+      "type": "string",
+      "default": ""
+    },
+    "contentType": {
+      "type": "string",
+      "default": "content-type-text"
+    },
+    "showInModal": {
+      "type": "boolean",
+      "default": true
+    },
+    "openInNewWindow": {
+      "type": "boolean",
+      "default": true
+    },
+    "animation": {
+      "type": "string",
+      "default": "none"
+    },
+    "specialEffect": {
+      "type": "string",
+      "default": "none"
+    }
+  },
+  "usesContext": [
+    "super-advent-calendar/animation",
+    "super-advent-calendar/specialEffect"
+  ],
+  "supports": {
+    "dimensions": {
+      "aspectRatio": true,
+      "minHeight": true
+    },
+    "html": false,
+    "spacing": {
+      "padding": true
+    },
+    "typography": {
+      "fontSize": true
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

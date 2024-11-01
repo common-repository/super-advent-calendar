@@ -1,0 +1,30 @@
+.superac {
+
+    grid-template-columns: none
+}
+
+	.superac .block-editor-block-list__layout {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 1rem
+}
+
+	@media (min-width: 768px) {
+
+    .superac .block-editor-block-list__layout {
+
+        grid-template-columns: repeat(3, minmax(0, 1fr))
+    }
+}
+
+	@media (min-width: 1024px) {
+
+    .superac .block-editor-block-list__layout {
+
+        grid-template-columns: repeat(5, minmax(0, 1fr))
+    }
+}
+
